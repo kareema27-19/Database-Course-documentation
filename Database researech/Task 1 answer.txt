@@ -140,3 +140,105 @@ Prepare data models for business insights
 Help stakeholders make data-driven decisions
 
 Extract patterns, trends, and KPIs from the data
+
+
+Types of Databases — Brief Descriptions + Use Cases
+1. Relational vs Non-Relational Databases
+Relational Databases (RDBMS)
+
+Store data in tables (rows and columns).
+
+Use SQL for querying.
+
+Support ACID transactions, making them reliable for structured data.
+
+Examples: MySQL, PostgreSQL, Oracle, SQL Server.
+
+✔ Use Cases
+
+Banking systems (transactions)
+
+Inventory & billing systems
+
+School/HR management systems
+
+Any system with structured, consistent data
+
+Non-Relational Databases (NoSQL)
+
+Different data models: document, key-value, column-store, graph.
+
+Examples
+
+MongoDB → Document-based (JSON-like)
+
+Cassandra → Column-store, highly scalable
+
+Redis → Key-value in-memory
+
+Neo4j → Graph database
+
+✔ Use Cases
+
+Social media feeds
+
+Big data analytics
+
+Real-time applications (chat apps)
+
+IoT systems
+
+Systems requiring fast reads/writes or flexible schemas
+
+2. Centralized vs Distributed vs Cloud Databases
+Centralized Database
+
+All data is stored in one central location/server.
+
+Easy to manage and control.
+
+✔ Use Cases
+
+Small companies
+
+School database
+
+Local accounting system
+
+Distributed Database
+
+Data is stored across multiple connected sites/servers.
+
+Improves availability, performance, fault tolerance.
+
+✔ Use Cases
+
+Global e-commerce platforms (Amazon)
+
+Banking systems with many branches
+
+Telecom companies storing user data across regions
+
+Cloud Database
+
+Hosted on cloud platforms such as AWS, Azure, Google Cloud.
+
+Offers scalability, automatic backups, pay-as-you-go model.
+
+✔ Examples
+
+Amazon RDS
+
+Google Firestore
+
+Azure SQL Database
+
+✔ Use Cases
+
+Mobile apps
+
+SaaS applications
+
+Startups requiring quick deployment
+
+Any application needing auto-scaling
