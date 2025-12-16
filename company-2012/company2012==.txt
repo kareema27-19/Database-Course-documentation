@@ -1,0 +1,19 @@
+--Display all employee data--
+select * from employee
+--Display employee first name, last name, salary, and department number--
+select Fname,Lname,Salary,Dno from employee
+--Display each employee’s full name and their annual commission (10% of annual salary) as annual_comm--
+
+select Fname + ' ' + Lname as full_name,
+salary * 12 * 0.10 as annual_comm from employee
+
+--Display employee ID and name for employees earning more than 1000 LE monthly--
+
+select SSN as employee_ID,
+Fname + ' ' + Lname as employee_name from employee
+Where salary > 1000
+
+--Display employee ID and name for employees earning more than 10000 LE annually--
+select SSN as employee_ID,
+Fname + ' ' + Lname as employee_name from employee
+Where salary * 12 > 10000;
